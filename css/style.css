@@ -4,7 +4,10 @@
     height: 100%;
     overflow: hidden;
 }
-
+iframe {
+height: 100vh;
+width: 100vw;
+}    
 .website iframe {
     position: absolute;
     top:0;
