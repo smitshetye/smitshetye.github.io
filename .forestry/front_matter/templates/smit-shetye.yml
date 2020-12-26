@@ -1,4 +1,12 @@
 ---
 label: Smit Shetye
 hide_body: true
-fields: []
+fields:
+- name: hasya_katta_official
+  type: blocks
+  label: Hasya Katta Official
+  template_types: []
+  config:
+    min: 
+    max: 
+  description: hi
