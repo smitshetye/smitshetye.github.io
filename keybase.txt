@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/smitshetye
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://smitshetye.github.io
+  * I am smitshetye (https://keybase.io/smitshetye) on keybase.
+  * I have a public key with fingerprint 5617 9D1B 8CDB CBA6 F2D7  792B 578E 478E 3FF7 334E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101f1cf7935db56b6e0e152ee30a3a65bdd65d3168931be6ef83891af0efc26f7b30a",
+      "fingerprint": "56179d1b8cdbcba6f2d7792b578e478e3ff7334e",
+      "host": "keybase.io",
+      "key_id": "578e478e3ff7334e",
+      "kid": "0101f1cf7935db56b6e0e152ee30a3a65bdd65d3168931be6ef83891af0efc26f7b30a",
+      "uid": "743e08861589b539f06b93ab47f8ed19",
+      "username": "smitshetye"
+    },
+    "service": {
+      "hostname": "smitshetye.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1620239850,
+  "expire_in": 157680000,
+  "prev": "327d34e097737877f28cb92f11ce2c57f9dd937059af53be4781bb2f31965da1",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIqAnicrVJ7SBRBHD7NC5PKJBCKkliMKMx2dm53dq43BVHQgzQKE86d3Zm7xXPv
+vNu7MuuP/rCSiugKiuidUVgEkYm9nz5CsOgNEmZ1FApp9pKLolmrv+rPBoZhfnzf
+N9/3MXdHDXNlpc093t2+umjW9bT2W8dirrJEsqdaICGjSvBWC+V06KBBg0ZtX7lp
+CF5BBCJgQGcIQ9kgskIUKlIgS5RCUYOaIhPDUGQDAkXFEBCqUKZCFQONiZTpksIQ
+4UChQGCm5aeRcMS0bC4rKwBhAxBVN4hONIVJBkJYIjJSqYdvyBiC0EM5MRCKOgxu
+jmhRWmiG+IxffEP2/oH/z75jQ3LIA6moqgqQVUxkiJmoEAw14kFMpQbADjBKI5ZW
+QTk6WmHa0QC1q6iwqUDg87ipU6daJ8tfmEK/aQdi5FeycCRkh/RQkCMCth2Oeh0F
+uyrsUNZR4vst5iOmZfBGOSNOI1EzZAlewJG6bTrqQJFECWJVFgsEuj5sRqjPdBAy
+UlSRL+cdGueSUEIGr03ECEGkIsQkVSdYYgDoVNJlxLBhYIhEGWtMhsTpGhAiMQgw
+b08DghOv0goJXshtan4nmOm3NDsW4dlv3yzNcKVluYa7052f5soaMebP/7t8PdPV
+4G78fnXpj4l5dyfl1aeKG5+eGZiQGrtqsDkYyEg2Wxty2anHX0evrGzaubxnwYTu
+8JGaObNrnwSl/BPTAuXv/W23D85oejXzXXf2/k2ZC2uvfcCl92oSm9ce78zIudd3
+bkdD8NmS1umTs3eNbsku6ajOCR6eerJ4R078wEgp5757e9nzrjuJ9qIG7768t+5P
+B99o8zv6P1+pHXegd8VureGhWj95Wdvi/vS3HX0pa0/n4EUz2ZWeeTY/NzGrdG6q
+rrd/Slvstad1+fyNTdsSF1r2luQ/Cjzbuu3GoXV1e09vST4YOSCX5cJLDytGvanx
+zSt58e38yi9rFq9qUca+/LjIN7741NH6n0HNTto=
+=w3Ky
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/smitshetye
+
+==================================================================
