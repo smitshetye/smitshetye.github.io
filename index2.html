@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="3d, photo, gallery, advanced, javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/pro3d.min.css">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/video-js.css">
+    <link rel="stylesheet" href="css/site-fullwidth.css">
+    <title>3D Photo Room</title>
+    <script src="js/video.min.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/pro3d.min.js"></script>
+</head>
+
+<body>
+    <!-- Main -->
+    <div id="wrapper">
+        <!-- Start gallery-->
+        <div class="rs-container">
+            <div class="rs-pro3d">
+
+                <!-- Animals Gallery-->
+                <ul data-name="Classic Art">
+                    <li> <a href="assets/classicart/1.jpg" title="Item 1" data-extended="assets/classicart/extended/1.jpg" data-type="photo" data-thumbnail="assets/classicart/thumbs/1.jpg">Item 1</a>
+                        <p>"Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence." -<em>Helen Keller</em></p>
+                    </li>
+                    <li> <a href="assets/classicart/2.jpg" title="Item 2" data-extended="assets/classicart/extended/2.jpg" data-type="photo" data-thumbnail="assets/classicart/thumbs/2.jpg">Item 2</a>
+                        <p>"An excellent man; he has no enemies; and none of his friends like him. " - <em>Oscar Wilde</em></p>
+                    </li>
+                    <li> <a href="assets/classicart/3.jpg" title="Item 3" data-extended="assets/classicart/extended/3.jpg" data-type="photo" data-thumbnail="assets/classicart/thumbs/3.jpg">Item 3</a>
+                        <p>"Never contract friendship with a man that is not better than thyself." - <em>Confucius</em></p>
+                    </li>
+                    <li> <a href="assets/classicart/4.jpg" title="Item 4" data-extended="assets/classicart/extended/4.jpg" data-type="photo" data-thumbnail="assets/classicart/thumbs/4.jpg">Item 4</a>
+                        <p>"It does not matter how slowly you go as long as you do not stop." - <em>Confucius</em></p>
+                    </li>
+                    <li> <a href="assets/classicart/5.jpg" title="Item 5" data-extended="assets/classicart/extended/5.jpg" data-type="photo" data-thumbnail="assets/classicart/thumbs/5.jpg">Item 5</a>
+                        <p>"Change your life today. Don't gamble on the future, act now, without delay. " - <em>Simone de Beauvoir</em></p>
+                    </li>
+                    <li> <a href="assets/classicart/6.jpg" title="Item 6" data-extended="assets/classicart/extended/6.jpg" data-type="photo" data-thumbnail="assets/classicart/thumbs/6.jpg">Item 6</a>
+                        <p>"Life is 10% what happens to you and 90% how you react to it." - <em>Charles R. Swindoll</em></p>
+                    </li>
+                    <li> <a href="assets/classicart/7.jpg" title="Item 7" data-extended="assets/classicart/extended/7.jpg" data-type="photo" data-thumbnail="assets/classicart/thumbs/7.jpg">Item 7</a>
+                        <p>"Love is blind; friendship closes its eyes." -<em> Friedrich Nietzsche</em></p>
+                    </li>
+                    <li> <a href="assets/classicart/8.jpg" title="Item 8" data-extended="assets/classicart/extended/8.jpg" data-type="photo" data-thumbnail="assets/classicart/thumbs/8.jpg">Item 8</a>
+                        <p>"Success is a science; if you have the conditions, you get the result." - <em>Oscar Wilde</em></p>
+                    </li>
+                    <li> <a href="assets/classicart/9.jpg" title="Item 9" data-extended="assets/classicart/extended/9.jpg" data-type="photo" data-thumbnail="assets/classicart/thumbs/9.jpg">Item 9</a>
+                        <p>“Let us be grateful to the people who make us happy; they are the charming gardeners who make our souls blossom." – <em>Marcel Proust</em></p>
+                    </li>
+                    <li> <a href="assets/classicart/10.jpg" title="Item 10" data-extended="assets/classicart/extended/10.jpg" data-type="photo" data-thumbnail="assets/classicart/thumbs/10.jpg">Item 10</a>
+                        <p>"Confidence comes with maturity, being more accepting of yourself. " - <em>Nicole Scherzinger</em></p>
+                    </li>
+                    <li> <a href="assets/classicart/11.jpg" title="Item 11" data-extended="assets/classicart/extended/11.jpg" data-type="photo" data-thumbnail="assets/classicart/thumbs/11.jpg">Item 11</a>
+                        <p>"For me, love is endless, and love has no age limit. " - <em>Khalid</em></p>
+                    </li>
+                    <li> <a href="assets/classicart/12.jpg" title="Item 12" data-extended="assets/classicart/extended/12.jpg" data-type="photo" data-thumbnail="assets/classicart/thumbs/12.jpg">Item 12</a>
+                        <p>"The only way to have a friend is to be one." - <em>Ralph Waldo Emerson</em></p>
+                    </li>
+                    <li> <a href="assets/classicart/13.jpg" title="Item 13" data-extended="assets/classicart/extended/13.jpg" data-type="photo" data-thumbnail="assets/classicart/thumbs/13.jpg">Item 13</a>
+                        <p>"We shall not cease from exploration, and the end of all our exploring will be to arrive where we started and know the place for the first time." - <em>T.S Eliot</em></p>
+                    </li>
+                    <li> <a href="assets/classicart/14.jpg" title="Item 14" data-extended="assets/classicart/extended/14.jpg" data-type="photo" data-thumbnail="assets/classicart/thumbs/14.jpg">Item 14</a>
+                        <p>"Don't forget to tell yourself positive things daily! You must love yourself internally to glow externally." - <em> Hannah Bronfman</em></p>
+                    </li>
+                </ul>
+
+                <!-- Travel Gallery-->
+                <ul data-name="Portrait Gallery">
+                    <li> <a href="assets/portrait/1.jpg" title="Item 1" data-extended="assets/portrait/extended/1.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/1.jpg">Item 1</a>
+                        <p>"Success is not final, failure is not fatal: it is the courage to continue that counts." - <em>Winston Churchill</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/2.jpg" title="Item 2" data-extended="assets/portrait/extended/2.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/2.jpg">Item 2</a>
+                        <p>"Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence." -<em>Helen Keller</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/3.jpg" title="Item 3" data-extended="assets/portrait/extended/3.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/3.jpg">Item 3</a>
+                        <p>"The most I can do for my friend is simply be his friend. " - <em>Henry David Thoreau</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/4.jpg" title="Item 4" data-extended="assets/portrait/extended/4.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/4.jpg">Item 4</a>
+                        <p>"Confidence comes with maturity, being more accepting of yourself. " - <em>Nicole Scherzinger</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/5.jpg" title="Item 5" data-extended="assets/portrait/extended/5.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/5.jpg">Item 5</a>
+                        <p>"The only way to have a friend is to be one." - <em>Ralph Waldo Emerson</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/6.jpg" title="Item 6" data-extended="assets/portrait/extended/6.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/6.jpg">Item 6</a>
+                        <p>"With the new day comes new strength and new thoughts." - <em> Eleanor Roosevel </em></p>
+                    </li>
+                    <li> <a href="assets/portrait/7.jpg" title="Item 7" data-extended="assets/portrait/extended/7.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/7.jpg">Item 7</a>
+                        <p>Good, better, best. Never let it rest. 'Til your good is better and your better is best." - <em>St. Jerome</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/8.jpg" title="Item 8" data-extended="assets/portrait/extended/8.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/8.jpg">Item 8</a>
+                        <p>"Change your life today. Don't gamble on the future, act now, without delay. " - <em>Simone de Beauvoir</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/9.jpg" title="Item 9" data-extended="assets/portrait/extended/9.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/9.jpg">Item 9</a>
+                        <p>"Age is the acceptance of a term of years. But maturity is the glory of years." <em>Martha Graham</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/10.jpg" title="Item 10" data-extended="assets/portrait/extended/10.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/10.jpg">Item 10</a>
+                        <p>"It is not a lack of love, but a lack of friendship that makes unhappy marriages." – <em>Friedrich Nietzsche</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/11.jpg" title="Item 11" data-extended="assets/portrait/extended/11.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/11.jpg">Item 11</a>
+                        <p>"Failure will never overtake me if my determination to succeed is strong enough. " - <em>Og Mandino</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/12.jpg" title="Item 12" data-extended="assets/portrait/extended/12.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/12.jpg">Item 12</a>
+                        <p>"Walking with a friend in the dark is better than walking alone in the light" - <em>Helen Kelle</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/13.jpg" title="Item 13" data-extended="assets/portrait/extended/13.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/13.jpg">Item 13</a>
+                        <p>"People with goals succeed because they know where they're going." - <em>Earl Nightingale</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/14.jpg" title="Item 14" data-extended="assets/portrait/extended/14.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/14.jpg">Item 14</a>
+                        <p>"For me, love is endless, and love has no age limit. " - <em>Khalid</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/15.jpg" title="Item 15" data-extended="assets/portrait/extended/15.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/15.jpg">Item 15</a>
+                        <p>"An excellent man; he has no enemies; and none of his friends like him. " - <em>Oscar Wilde</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/16.jpg" title="Item 16" data-extended="assets/portrait/extended/16.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/16.jpg">Item 16</a>
+                        <p>"Love is blind; friendship closes its eyes." -<em> Friedrich Nietzsche</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/17.jpg" title="Item 17" data-extended="assets/portrait/extended/17.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/17.jpg">Item 17</a>
+                        <p>"It is what a man thinks of himself that really determines his fate. " - <em>Henry David Thoreau</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/18.jpg" title="Item 18" data-extended="assets/portrait/extended/18.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/18.jpg">Item 18</a>
+                        <p>"The starting point of all achievement is desire." - <em>Napoleon Hill</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/19.jpg" title="Item 19" data-extended="assets/portrait/extended/19.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/19.jpg">Item 19</a>
+                        <p>"If everyone is moving forward together, then success takes care of itself. " - <em>Henry Ford</em></p>
+                    </li>
+                    <li> <a href="assets/portrait/20.jpg" title="Item 20" data-extended="assets/portrait/extended/20.jpg" data-type="photo" data-thumbnail="assets/portrait/thumbs/20.jpg">Item 20</a>
+                        <p>"The greatest gift of life is friendship, and I have received it." - <em>Hubert H. Humphrey</em></p>
+                    </li>
+                </ul>
+
+                <!-- Art Gallery-->
+                <ul data-name="Animals Gallery">
+                    <li> <a href="assets/animals/1.jpg" title="Item 1" data-extended="assets/animals/extended/1.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/1.jpg">Item 1</a>
+                        <p>"Success is not final, failure is not fatal: it is the courage to continue that counts." - <em>Winston Churchill</em></p>
+                    </li>
+                    <li> <a href="assets/animals/2.jpg" title="Item 2" data-extended="assets/animals/extended/2.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/2.jpg">Item 2</a>
+                        <p>"Failure will never overtake me if my determination to succeed is strong enough. " - <em>Og Mandino</em></p>
+                    </li>
+                    <li> <a href="assets/animals/3.jpg" title="Item 3" data-extended="assets/animals/extended/3.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/3.jpg">Item 3</a>
+                        <p>"Confidence comes with maturity, being more accepting of yourself. " - <em>Nicole Scherzinger</em></p>
+                    </li>
+                    <li> <a href="assets/animals/4.jpg" title="Item 4" data-extended="assets/animals/extended/4.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/4.jpg">Item 4</a>
+                        <p>"Love is blind; friendship closes its eyes." -<em> Friedrich Nietzsche</em></p>
+                    </li>
+                    <li> <a href="assets/animals/5.jpg" title="Item 5" data-extended="assets/animals/extended/5.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/5.jpg">Item 5</a>
+                        <p>"Age is the acceptance of a term of years. But maturity is the glory of years." <em>Martha Graham</em></p>
+                    </li>
+                    <li> <a href="assets/animals/6.jpg" title="Item 6" data-extended="assets/animals/extended/6.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/6.jpg">Item 6</a>
+                        <p>"Set your goals high, and don't stop till you get there. " - <em>Bo Jackson</em></p>
+                    </li>
+                    <li> <a href="assets/animals/7.jpg" title="Item 7" data-extended="assets/animals/extended/7.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/7.jpg">Item 7</a>
+                        <p>"We shall not cease from exploration, and the end of all our exploring will be to arrive where we started and know the place for the first time." - <em>T.S Eliot</em></p>
+                    </li>
+                    <li> <a href="assets/animals/8.jpg" title="Item 8" data-extended="assets/animals/extended/8.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/8.jpg">Item 8</a>
+                        <p>"It is not a lack of love, but a lack of friendship that makes unhappy marriages." – <em>Friedrich Nietzsche</em></p>
+                    </li>
+                    <li> <a href="assets/animals/9.jpg" title="Item 9" data-extended="assets/animals/extended/9.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/9.jpg">Item 9</a>
+                        <p>"The starting point of all achievement is desire." - <em>Napoleon Hill</em></p>
+                    </li>
+                    <li> <a href="assets/animals/10.jpg" title="Item 10" data-extended="assets/animals/extended/10.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/10.jpg">Item 10</a>
+                        <p>"All I can control is myself and just keep having a positive attitude. " - <em>Rose Namajunas</em></p>
+                    </li>
+                    <li> <a href="assets/animals/11.jpg" title="Item 11" data-extended="assets/animals/extended/11.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/11.jpg">Item 11</a>
+                        <p>"It does not matter how slowly you go as long as you do not stop." - <em>Confucius</em></p>
+                    </li>
+                    <li> <a href="assets/animals/12.jpg" title="Item 12" data-extended="assets/animals/extended/12.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/12.jpg">Item 12</a>
+                        <p>"It is what a man thinks of himself that really determines his fate. " - <em>Henry David Thoreau</em></p>
+                    </li>
+                    <li> <a href="assets/animals/13.jpg" title="Item 13" data-extended="assets/animals/extended/13.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/13.jpg">Item 13</a>
+                        <p>"Don't forget to tell yourself positive things daily! You must love yourself internally to glow externally." - <em> Hannah Bronfman</em></p>
+                    </li>
+                    <li> <a href="assets/animals/14.jpg" title="Item 14" data-extended="assets/animals/extended/14.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/14.jpg">Item 14</a>
+                        <p>"People with goals succeed because they know where they're going." - <em>Earl Nightingale</em></p>
+                    </li>
+                    <li> <a href="assets/animals/15.jpg" title="Item 15" data-extended="assets/animals/extended/15.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/15.jpg">Item 15</a>
+                        <p>"The secret of getting ahead is getting started. " - <em>Mark Twain</em></p>
+                    </li>
+                    <li> <a href="assets/animals/16.jpg" title="Item 16" data-extended="assets/animals/extended/16.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/16.jpg">Item 16</a>
+                        <p>"The greatest gift of life is friendship, and I have received it." - <em>Hubert H. Humphrey</em></p>
+                    </li>
+                    <li> <a href="assets/animals/17.jpg" title="Item 17" data-extended="assets/animals/extended/17.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/17.jpg">Item 17</a>
+                        <p>"Never contract friendship with a man that is not better than thyself." - <em>Confucius</em></p>
+                    </li>
+                    <li> <a href="assets/animals/18.jpg" title="Item 18" data-extended="assets/animals/extended/18.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/18.jpg">Item 18</a>
+                        <p>"The only way to have a friend is to be one." - <em>Ralph Waldo Emerson</em></p>
+                    </li>
+                    <li> <a href="assets/animals/19.jpg" title="Item 19" data-extended="assets/animals/extended/19.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/19.jpg">Item 19</a>
+                        <p>"The will to win, the desire to succeed, the urge to reach your full potential... these are the keys that will unlock the door to personal excellence." -<em>Confucius</em></p>
+                    </li>
+                    <li> <a href="assets/animals/20.jpg" title="Item 20" data-extended="assets/animals/extended/20.jpg" data-type="photo" data-thumbnail="assets/animals/thumbs/20.jpg">Item 20</a>
+                        <p>"Beauty has so many forms, and I think the most beautiful thing is confidence and loving yourself." - <em>Kiesza</em></p>
+                    </li>
+                </ul>
+                <!-- Sample audio gallery-->
+                <ul data-name="Audio Gallery">
+                    <li><a href="assets/audios/1.jpg" title="Fur Elise" data-extended="assets/audios/extended/eli.mp3" data-type="audio">Fur Elise</a>
+                        <p>
+                            Bagatelle No. 25 in A minor (WoO 59, Bia 515) for solo piano, commonly known as "Für Elise" is one of Ludwig van Beethoven's most popular compositions...
+                            <em> - Wikipedia</em>
+                        </p>
+                    </li>
+                    <li><a href="assets/audios/2.jpg" title="Fantaisie Impromptu" data-extended="assets/audios/extended/fan.mp3" data-type="audio">Fantaisie Impromptu</a>
+                        <p>
+                            Frédéric Chopin's Fantaisie-Impromptu (Polish: Fantazja-Impromptu) in C♯ minor Op. posth. 66 is a solo piano composition. It was composed in 1834 and published posthumously in 1855...
+                            <em> - Wikipedia</em>
+                        </p>
+                    </li>
+                    <li><a href="assets/audios/3.jpg" - title="La Campanella" data-extended="assets/audios/extended/la.mp3" data-type="audio">La Campanella</a>
+                        <p>
+                            "La campanella" (Italian for "The little bell") is the nickname given to the third of Franz Liszt's six Grandes études de Paganini, S. 141 (1851). It is in the key of G-sharp minor...
+                            <em> - Wikipedia</em>
+                        </p>
+                    </li>
+                    <li><a href="assets/audios/4.jpg" title="Moonlight Sonata" data-extended="assets/audios/extended/son.mp3" data-type="audio">Moonlight Sonata</a>
+                        <p>
+                            The Piano Sonata No. 14 in C♯ minor "Quasi una fantasia", popularly known as the Moonlight Sonata, is a piano sonata by Ludwig van Beethoven. It was completed in 1801 and dedicated in 1802 to his pupil, Countess Giulietta Guicciardi...
+                            <em> - Wikipedia</em>
+                        </p>
+                    </li>
+                    <li><a href="assets/audios/5.jpg" title="Rondo Alla Turca" data-extended="assets/audios/extended/turca.mp3" data-type="audio">Rondo Alla Turca</a>
+                        <p>
+                            The Piano Sonata No. 11 in A major, K. 331 / 300i, by Wolfgang Amadeus Mozart is a piano sonata in three movements...
+                            <em> - Wikipedia </em>
+                        </p>
+                    </li>
+                    <li><a href="assets/audios/6.jpg" title="Waltz in C# Minor" data-extended="assets/audios/extended/wal.mp3" data-type="audio">Waltz in C# Minor</a>
+                        <p>
+                            The Waltz in C♯ minor is a piano waltz composed by Frédéric Chopin in 1847, the second work of his opus 64 and the companion to the "Minute Waltz" (Op. 64, No. 1)
+                            <em> - Wikipedia</em>
+                        </p>
+                    </li>
+                </ul>
+                <ul data-name="Video Gallery">
+                    <li><a href="assets/videos/poster0.jpg" data-poster="assets/videos/poster0.jpg" title="Video 1" data-extended="['assets/videos/extended/sample0.mp4', 'assets/videos/extended/sample0.webm']" data-type="video">Video 1</a>
+                        <p>Sample video 1 description</p>
+                    </li>
+                    <li><a href="assets/videos/poster1.jpg" data-poster="assets/videos/poster1.jpg" title="Video 2" data-extended="['assets/videos/extended/sample1.mp4', 'assets/videos/extended/sample1.webm']" data-type="video">Video 2</a>
+                        <p>Sample video 2 description</p>
+                    </li>
+                    <li><a href="assets/videos/poster2.jpg" - data-poster="assets/videos/poster2.jpg" title="Video 3" data-extended="['assets/videos/extended/sample2.mp4', 'assets/videos/extended/sample2.webm']" data-type="video">Video 3</a>
+                        <p>Sample video 3 description</p>
+                    </li>
+                    <li><a href="assets/videos/poster3.jpg" data-poster="assets/videos/poster3.jpg" title="Video 4" data-extended="['assets/videos/extended/sample3.mp4', 'assets/videos/extended/sample3.webm']" data-type="video">Video 4</a>
+                        <p>Sample video 4 description</p>
+                    </li>
+                    <li><a href="assets/videos/poster4.jpg" data-poster="assets/videos/poster4.jpg" title="Video 5" data-extended="['assets/videos/extended/sample4.mp4', 'assets/videos/extended/sample4.webm']" data-type="video">Video 5</a>
+                        <p>Sample video 5 description</p>
+                    </li>
+                    <li><a href="assets/videos/poster5.jpg" data-poster="assets/videos/poster5.jpg" title="Video 5" data-extended="['assets/videos/extended/sample5.mp4', 'assets/videos/extended/sample5.webm']" data-type="video">Video 6</a>
+                        <p>Sample video 6 description</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end gallery-->
+    </div>
+    <!-- end main wrapper-->
+    <script type="text/javascript">
+        document.body.onload = function() {
+
+            "use strict";
+
+            var el = document.querySelector('.rs-pro3d');
+            var pro3d = new PhotoRoom(el);
+            window.pro3d = pro3d;
+        }
+    </script>
+</body>
+
+</html>
