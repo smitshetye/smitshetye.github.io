@@ -78,8 +78,8 @@ $(function () {
     /**  Start Typed
      **====================== **/
     $(".kayo-work").typed({
-        strings: ["A computer programmer, Full Stack Developer, Social Media Optimizer, Search Engine Optimizer, Youngest Google and other search engines Knowledge Panel Expert, and Founder and CMD at Hasya Katta Official and an Indian Entreprenuer."],
-        cursorChar: "",
+        strings: ["An Indian entrepreneur, Founder, CMD and CEO at Hasya Katta Official, director, producer, composer, cinematographer, actor, writer of Hasya Katta Official web series. I was born to Maharashtrian parents, in Mumbai city of Maharashtra state, India later I was brought up in Thane. I was a student of Sri Ma Vidyalaya School in Thane, Pace Jr. Science College Powai & Thane, Shivajirao S. Jondhale College Of Engineering Dombivli, Thane. I started my career with computer programming, full-stack development, social media optimization, search engine optimization, Youngest Indian Entrepreneur, Google and other search engines Knowledge Panel Expert. I was also awarded 2nd rank in the National Computing Intelligence Olympiad. Honoured with Gold & Silver medal, Plaque, and Trophy."],
+        cursorChar: "S",
         typeSpeed: 150,
         loop: true,
         backSpeed: 50
