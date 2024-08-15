@@ -1,27 +1,33 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie</title>
+    <title>Iframe Element Hiding Example</title>
     <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-        }
-        iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
+        /* Add CSS to hide the specific element within the iframe */
+        #myIframe {
             width: 100%;
-            height: 100%;
+            height: 100vh;
             border: none;
         }
     </style>
 </head>
 <body>
-    <iframe src="https://coppola.qodeinteractive.com/" title="Full Screen iFrame"></iframe>
+
+<iframe id="myIframe" src="https://coppola.qodeinteractive.com/"></iframe>
+
+<script>
+    document.getElementById('myIframe').onload = function() {
+        var iframeDocument = this.contentDocument || this.contentWindow.document;
+        var elementToHide = iframeDocument.querySelector('your-css-selector-here');
+        if (elementToHide) {
+            elementToHide.style.display = 'none';
+        }
+    };
+</script>
+
 </body>
 </html>
