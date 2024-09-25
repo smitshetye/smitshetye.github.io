@@ -15,3 +15,5 @@ self.addEventListener('fetch', (e) => {
     caches.match(e.request).then((response) => response || fetch(e.request)),
   );
 });
+
+importScripts("https://cdn.pushalert.co/sw-74766.js");
